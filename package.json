@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "myfinances",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,10 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~48.0.10",
+    "expo": "~48.0.15",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.6",
+    "react-native": "0.71.7",
+    "react-native-circular-progress-indicator": "^4.4.2",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-svg": "13.4.0",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
