@@ -11,18 +11,18 @@ export const Card = styled.View`
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
-
+    border-radius: 10px;
     background-color: #c4c4c4;
-    elevation: 3;
 `
 
 Card.Text = styled.Text`
     font-size: 16px;
 `
 
-export const Icon = styled.View`
+export const Info = styled.View`
     width: 50px;
     height: 50px;
     background-color: #303030;
+    border-radius: 25px;
 `
 

@@ -1,5 +1,6 @@
 import { View, Text } from "react-native";
-import { Container, Card, Icon } from "./styles";
+import { Container, Card, Info } from "./styles";
+import Icon from "react-native-ionicons";
 
 export const List = ({ data }) => {
     return (
@@ -9,8 +10,9 @@ export const List = ({ data }) => {
                     {data.value}
                 </Card.Text>
             </Card>
-            <Icon>
-            </Icon>
+            <Info>
+                <Icon name="globe-outline"></Icon>
+            </Info>
         </Container>
     )
 }
